@@ -4,7 +4,6 @@
     margin-right: auto;
 }
 .header_table{
-    margin-top: 50px;
     display:grid;
     grid-template-columns: 8fr 1fr 2fr 2fr 2fr 2fr;
     margin-left:auto;
@@ -13,13 +12,30 @@
 .logo{
     font-size:40px;
     margin-bottom:5px;
+    cursor: pointer;
 }
 .header_text{
-    margin-top:27px;
+    margin-top:45px;
     margin-left:60px;
-    color:#4f4f4f;
     font-family: Arial Narrow, sans-serif;
     letter-spacing: 1pt;
+    cursor: pointer;
+    font-size:18px;
+}
+#aa{
+    color:#4f4f4f;
+}
+#ab{
+    color:#4f4f4f;
+}
+#ac{
+    color:#4f4f4f;
+}
+#ad{
+    color:#4f4f4f;
+}
+#ae{
+    color:#4f4f4f;
 }
 .top_pic{
     display:grid;
@@ -27,7 +43,6 @@
     grid-column-gap: 5px;
     margin-left:auto;
     margin-right: auto;
-    margin-top: 50px;
 }
 .pic{
     width:100%;
@@ -40,7 +55,7 @@
     position:relative;
 }
 .text_on_pic{
-    top:450px;
+    top:430px;
     margin-left:10px;
     position:absolute;
     background-color: black;
