@@ -1,0 +1,33 @@
+.body{
+    max-width:1520px; 
+    margin-left:auto;
+    margin-right: auto;
+}
+.header_table{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: 8fr 1fr 2fr 2fr 2fr 2fr;
+    margin-left:auto;
+    margin-right: auto;
+}
+.logo{
+
+}
+.header_text{
+    margin-top:27px;
+    color:#4f4f4f;
+    font-family: Arial Narrow, sans-serif;
+    letter-spacing: 1pt;
+}
+.top_pic{
+    display:grid;
+    grid-template-columns: 8fr 2fr;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.pic{
+    background-color: red;
+    width:100%;
+    height:400px;
+}
