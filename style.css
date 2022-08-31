@@ -11,23 +11,47 @@
     margin-right: auto;
 }
 .logo{
-
+    font-size:40px;
+    margin-bottom:5px;
 }
 .header_text{
     margin-top:27px;
+    margin-left:60px;
     color:#4f4f4f;
     font-family: Arial Narrow, sans-serif;
     letter-spacing: 1pt;
 }
 .top_pic{
     display:grid;
-    grid-template-columns: 8fr 2fr;
+    grid-template-columns: 5fr 2fr;
+    grid-column-gap: 5px;
     margin-left:auto;
     margin-right: auto;
     margin-top: 50px;
 }
 .pic{
-    background-color: red;
     width:100%;
     height:400px;
+}
+.pic2{
+    width:100%;
+    height:400px;
+    background: radial-gradient(circle farthest-corner at 100px 50px, #333232, black);
+    position:relative;
+}
+.text_on_pic{
+    top:450px;
+    margin-left:10px;
+    position:absolute;
+    background-color: black;
+    color:white;
+    font-size:40px;
+    line-height:60px;
+    opacity: .7;
+    font-family: Arial Narrow, sans-serif;
+    letter-spacing: 2pt;
+}
+.main{
+    display:grid;
+    grid-template-columns: 2.5fr 2.5fr 2fr;
 }
